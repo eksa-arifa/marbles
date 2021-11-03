@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  <title>Marbles | live or die</title>
+</head>
+<body>
+  <div class="judul">
+    Marbles,live or die
+  </div>
+  <div class="kotak">
+    <div class="i"><button onclick="info()">i</button></div>
+    <div class="info">
+      <div class="player">
+        <span>Kelereng-Mu:10</span>
+      </div>
+      <div class="musuh">
+        <span>Kelereng-Lawan:10</span>
+      </div>
+    </div>
+    <div class="taruhan">
+      <div class="ket">Taruhan:</div>
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+    <div class="ganjil-genap">
+      <button onclick="ganjil()">Ganjil</button>
+      <button onclick="genap()">Genap</button>
+    </div>
+  </div>
+  <footer>
+    Created by eksa arifa
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #f7b733;
+}
+.judul{
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  background: #4abdac;
+  color: #fff;
+  border-bottom: 2px solid #dfdce3;
+}
+
+.kotak{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fc4a1a;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #dfdce3;
+}
+
+.kotak .info{
+  width: 100%;
+  background: #4abdac;
+  padding: 5px 10px;
+  border-radius: 5px 5px 0 0;
+  font-size: 15px;
+}
+.kotak .taruhan{
+  width: 100%;
+  padding: 5px;
+}
+.kotak .taruhan select{
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
+}
+.kotak .taruhan .ket{
+  font-weight: bold;
+  color: white;
+}
+.kotak .ganjil-genap{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kotak .ganjil-genap button{
+  width: 50%;
+  margin: 4px;
+  padding: 5px;
+  background: lightblue;
+  outline: none;
+  border: 2px solid #dfdce3;
+}
+footer{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: #fc4a1a;
+  position: absolute;
+  bottom: 0;
+}
+.kotak .i button{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  outline: none;
+  background: white;
+  border: none;
+}
